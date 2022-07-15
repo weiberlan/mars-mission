@@ -84,3 +84,12 @@ To see the code coverage, you can use the 'npm run test-coverage'
 ```
 npm run test-coverage
 ```
+
+## Code Coverage
+
+![Code Coverage](https://raw.githubusercontent.com/weiberlan/mars-mission/master/img/code-coverage.PNG)
+
+## Next steps (possible improvements):
+- Refactor the Mission.processMissionData;
+- Use a validator lib;
+- WIP.
