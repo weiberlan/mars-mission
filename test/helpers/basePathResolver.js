@@ -1,0 +1,1 @@
+export const getProjectPath = () => process.cwd();
