@@ -1,0 +1,23 @@
+{
+    "name": "martian-robots",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+      "test-coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+    },
+    "author": "",
+    "license": "ISC",
+    "bin": {
+      "start-mission": "./bin/index.js"
+    },
+    "dependencies": {
+      "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+      "jest": "^28.1.3"
+    }
+  }
+  
